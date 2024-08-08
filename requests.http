@@ -1,0 +1,31 @@
+### Login
+POST localhost:8080/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "admin@abc.com",
+  "password": "admin"
+}
+
+
+### Register
+POST localhost:8080/auth/signup
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "admin",
+  "email": "admin@abc.com",
+  "password": "admin"
+}
+
+### Get All Users
+GET localhost:8080/users/
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjFAYWJjLmNvbSIsImlhdCI6MTcyMzEzNjYxNSwiZXhwIjoxNzIzMTM3MjE1fQ.TcCDGE7swEFYrYj_PaLhcDIMscIZkrfnd5x_v8092QM
+
+### Get Current User
+GET localhost:8080/users/me
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBhYmMuY29tIiwiaWF0IjoxNzIzMTM1ODI1LCJleHAiOjE3MjMxMzY0MjV9.PyzDaq9ThRULP3kn9hgfXKJZTQxyhetNzRxusvjiqWo
