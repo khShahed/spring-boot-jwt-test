@@ -28,4 +28,4 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjFAYWJjLmNvbSIsImlhd
 ### Get Current User
 GET localhost:8080/users/me
 Accept: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBhYmMuY29tIiwiaWF0IjoxNzIzMTM1ODI1LCJleHAiOjE3MjMxMzY0MjV9.PyzDaq9ThRULP3kn9hgfXKJZTQxyhetNzRxusvjiqWo
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBhYmMuY29tIiwiaWF0IjoxNzIzMTgxMDQ1LCJleHAiOjE3MjMxODE2NDV9.zlNbVhYHgs7a39mBG8wf0YF-qHcrDOUV8zzvvccVDDI
